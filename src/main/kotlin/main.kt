@@ -1,3 +1,7 @@
 fun main() {
-    print("안녕하세요")
+
+    fun plus(a: Int, b: Int): Int = a + b
+
+    val n = plus(2,5)
+    println(n)
 }
